@@ -19,6 +19,13 @@ Esta aplicación muestra el uso de formulario por template y reactivos.
 * Directivas personalizadas
 * Manejo del formulario y validaciones
 * Encapsular módulos y scope de los mismos
+* [Formularios Reactivos](https://angular.io/guide/reactive-forms#reactive-forms)
+* Validaciones propias de Angular
+* Arreglos y objetos anidados
+* FormBuilder
+* FormGroup
+* FormArray
+
 
 ## Development server
 Ejecutar`ng serve` para el servidor de desarrollo. Navegar a  `http://localhost:4200/`. La aplicación será automaticamente recargada si se realizan cambios en el código fuente.
