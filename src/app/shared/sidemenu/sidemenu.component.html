@@ -1,0 +1,33 @@
+
+<div class="mb-3">
+  <h2>Template</h2>
+  <hr>
+  <ul class="list-group">
+
+    <li *ngFor="let item of templeMenu"
+        class="list-group-item clickeable"
+        [routerLink]="[ item.ruta ]"
+        routerLinkActive="active"
+    >
+      {{ item.texto}}
+    </li>
+  </ul>
+</div>
+
+<div>
+  <h2>Reactive</h2>
+  <hr>
+  <ul class="list-group">
+
+    <li *ngFor="let item of reactiveMenu"
+        class="list-group-item clickeable"
+        [routerLink]="[ item.ruta ]"
+        routerLinkActive="active"
+    >
+      {{ item.texto}}
+    </li>
+  </ul>
+</div>
+
+
+
