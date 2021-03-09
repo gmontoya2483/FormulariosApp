@@ -14,7 +14,7 @@
   </ul>
 </div>
 
-<div>
+<div class="mb-3">
   <h2>Reactive</h2>
   <hr>
   <ul class="list-group">
@@ -28,6 +28,23 @@
     </li>
   </ul>
 </div>
+
+<div class="mb-3">
+  <h2>Validaciones</h2>
+  <hr>
+  <ul class="list-group">
+
+    <li *ngFor="let item of authMenu"
+        class="list-group-item clickeable"
+        [routerLink]="[ item.ruta ]"
+        routerLinkActive="active"
+    >
+      {{ item.texto}}
+    </li>
+  </ul>
+</div>
+
+
 
 
 
